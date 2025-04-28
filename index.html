@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xinling Jin - Data Science Researcher</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 20px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .item-title {
+            font-weight: bold;
+        }
+        .item-date {
+            color: #7f8c8d;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .publication {
+            font-style: italic;
+        }
+        .awards-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        .award-item {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Xinling Jin</h1>
+        <div class="contact-info">
+            Fuzhou, Fujian | 2253738@tongji.edu.cn | 133 5828 0119
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/jinxinling" target="_blank">GitHub</a> | 
+            <a href="https://linkedin.com/in/jinxinl" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="item-header">
+                <span class="item-title">Tongji University, BS in Data Science and Big Data Technology</span>
+                <span class="item-date">Sept 2022 - June 2026</span>
+            </div>
+            <ul>
+                <li>GPA: 4.73/5.00 (Ranked 5th out of 34 students)</li>
+                <li>Core Courses: Probability and Mathematical Statistics, Linear Algebra, Data structure and Algorithm Design, Machine learning</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>Research Experience</h2>
+        <div class="experience-item">
+            <div class="item-header">
+                <span class="item-title">Research Intern, Institute for AI Industry Research, Tsinghua University</span>
+                <span class="item-date">Dec 2024 - Mar 2025</span>
+            </div>
+            <ul>
+                <li>Proposed a RL-based training framework for autoformalization and created a benchmark of advanced math problems</li>
+                <li>Fine-tuned mainstream models using math problem datasets and incorporated quantization tools to reduce LLM memory usage</li>
+                <li>Used LLMs to extract natural language-formatted math problems from advanced mathematics textbooks</li>
+                <li>Set up a parallelized checking pipeline that invokes Lean 4 compiler to verify translation correctness</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="publication">
+            <strong>FormaRL: Enhancing Autoformalization with no Labeled Data</strong> (Under review at COLM 2025)
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <div class="item-header">
+                <span class="item-title">Graduate Supervisor Recommendation Platform with Academic Network Visualization</span>
+                <span class="item-date">Mar 2024 - Mar 2025</span>
+            </div>
+            <ul>
+                <li>Used GPT-4o to extract academic advisor-advisee relationships and scholarly networks</li>
+                <li>Scraped faculty profiles from university websites and CNKI for advisor information</li>
+                <li>Applying for Software Copyright Registration</li>
+            </ul>
+        </div>
+        
+        <div class="project-item">
+            <div class="item-header">
+                <span class="item-title">BERT-Based Sentiment Analysis for Hotel Reviews</span>
+                <span class="item-date">Aug 2024 - Sept 2024</span>
+            </div>
+            <ul>
+                <li>Awarded third prize in MindSpore Innovation Bootcamp final presentation</li>
+                <li>Learned about fine-tuning and prompt engineering with MindSpore framework</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="awards">
+        <h2>Honors & Awards</h2>
+        <div class="awards-list">
+            <div class="award-item">
+                <strong>Scholarship for Outstanding Students</strong><br>
+                Second class scholarship | Tongji University | 2022
+            </div>
+            <div class="award-item">
+                <strong>Scholarship for Outstanding Students</strong><br>
+                Third class scholarship | Tongji University | 2023
+            </div>
+            <div class="award-item">
+                <strong>Chinese Mathematics Competitions</strong><br>
+                Third Prize, Shanghai Division
+            </div>
+            <div class="award-item">
+                <strong>CCF-Certified Software Professional</strong><br>
+                Top 20% (35th) | CCF-IDEN-CSP-2024-14084
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Certifications</h2>
+        <ul>
+            <li><strong>CET-6:</strong> Overall 565 (Listening 185, Reading 216, Writing 164)</li>
+            <li><strong>Programming:</strong> Python, Machine Learning, Deep Learning</li>
+            <li><strong>Frameworks:</strong> MindSpore, PyTorch, TensorFlow</li>
+            <li><strong>Tools:</strong> Lean 4, GPT-4o, BERT, LLMs</li>
+        </ul>
+    </section>
+</body>
+</html>
